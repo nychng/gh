@@ -1,0 +1,100 @@
+/* Start generic overrides */
+body {
+	font: Helvetica, Arial, Sans-serif;
+	padding-top: 65px;
+}
+
+h1 {
+	color: #999999;
+	text-transform:uppercase;
+	letter-spacing: 0.1em;
+}
+
+.logo {
+	text-transform:uppercase;
+	font-size: 1.5em;
+	padding: 40px 0px;
+}
+/* End generic overrides */
+
+/* Start navbar overrides */
+.navbar {
+	box-shadow: 0 0 5px 0 #acacac;
+	-webkit-box-shadow: 0 0 5px 0 #acacac;
+	-moz-box-shadow: 0 0 5px 0 #acacac;
+	-o-box-shadow: 0 0 5px 0 #acacac;
+	color: #777777;
+	background: #fff;
+	margin-bottom: 0px;
+}
+
+.navbar .nav > li > a {
+	float: none;
+	padding: 30px 15px 10px;
+	color: #55606E;
+	text-decoration: none;
+	text-shadow: 0 1px 0 #ffffff;
+	text-transform: uppercase;
+	font-weight: 300;
+	border-top: 11px solid transparent;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus,
+.navbar-inverse .navbar-brand:hover,
+.navbar-inverse .navbar-brand:focus {
+	color: #ff4707;
+}
+/* End navbar overrides */
+
+/* Start main content */
+#an-impressive-image {
+	background: transparent url('') no-repeat center;
+	background-image: url(../img/class5.jpg);
+	padding: 100px 0;
+	background-size: cover;
+	color: #fff;
+	text-shadow: 0 1px 3px rgba(0,0,0,.4), 0 0 30px rgba(0,0,0,.075);
+	min-height: 700px;
+	text-align: center;
+}
+
+#an-impressive-image h1 {
+	color: #fff;
+}
+
+#an-impressive-image p {
+	font-size: 1.5em;
+}
+
+#work ul {
+	list-style-type: none;
+}
+
+#work h4 {
+	text-align: center;
+}
+
+#about {
+	text-align: center;
+}
+
+#about p {
+	text-align: left;
+}
+
+#contact {
+	text-align: center;
+}
+
+.section-header h1 {
+	font-weight: 400;
+	text-align: center;
+	font-size: 3em;
+	color: #ff4707;
+	text-transform: uppercase;
+	line-height: 2em;
+}
+
+
+/* End main content */
