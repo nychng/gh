@@ -26,18 +26,18 @@ h1, h2 {
 	-webkit-box-shadow: 0 0 5px 0 #acacac;
 	-moz-box-shadow: 0 0 5px 0 #acacac;
 	-o-box-shadow: 0 0 5px 0 #acacac;
-	color: #777777;
-	background: #fff;
+	/*color: #777777;*/
+	/*background: #fff;*/
 	margin-bottom: 0px;
 	/*border-bottom: 3px solid #ff4707;*/
 }
 
 .navbar .nav > li > a {
 	float: none;
-	padding: 30px 15px 10px;
-	color: #55606E;
-	text-decoration: none;
-	text-shadow: 0 1px 0 #ffffff;
+	padding: 40px 15px 10px;
+	/*color: #55606E;*/
+	/*text-decoration: none;*/
+	/*text-shadow: 0 1px 0 #ffffff;*/
 	text-transform: uppercase;
 	font-weight: 300;
 	/*border-top: 11px solid transparent;*/
@@ -53,24 +53,18 @@ h1, h2 {
 
 /* Start main content */
 #an-impressive-image {
-	background: transparent url('') no-repeat center;
-	background-image: url(../img/bg.png);
+	background-image: url(../img/merlion.jpg);
 	padding: 100px 0;
 	background-size: cover;
 	color: #fff;
 	text-shadow: 0 1px 3px rgba(0,0,0,.4), 0 0 30px rgba(0,0,0,.075);
-	min-height: 450px;
-	text-align: center;
+	min-height: 425px;
+	text-align: right;
 }
 
 #an-impressive-image h1 {
-	font-size: 4em;
-	color: #fff;
-	letter-spacing: 0.025em;
-}
-
-#an-impressive-image p {
 	font-size: 2.5em;
+	color: #fff;
 }
 
 #work ul {
@@ -83,10 +77,6 @@ h1, h2 {
 
 #about {
 	text-align: center;
-}
-
-#about p {
-	text-align: left;
 }
 
 #contact {
